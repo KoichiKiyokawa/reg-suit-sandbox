@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "screenshot": "storycap --serverCmd 'pnpm run storybook' http://localhost:6006"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -36,6 +37,7 @@
     "reg-notify-github-plugin": "^0.12.1",
     "reg-publish-s3-plugin": "^0.12.1",
     "reg-suit": "^0.12.1",
-    "storybook": "^7.0.0-beta.48"
+    "storybook": "^7.0.0-beta.48",
+    "storycap": "4.0.0"
   }
 }
