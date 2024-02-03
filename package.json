@@ -34,7 +34,7 @@
     "@storybook/react": "^7.0.0-beta.48",
     "@storybook/testing-library": "^0.0.14-next.1",
     "eslint-plugin-storybook": "^0.6.10",
-    "puppeteer": "19.7.1",
+    "puppeteer": "21.11.0",
     "reg-keygen-git-hash-plugin": "^0.12.1",
     "reg-notify-github-plugin": "^0.12.1",
     "reg-publish-s3-plugin": "^0.12.1",
